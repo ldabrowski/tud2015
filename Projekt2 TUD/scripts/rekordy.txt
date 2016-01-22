@@ -1,0 +1,8 @@
+INSERT INTO Model (id, nazwa, opis)
+VALUES ('1', 'Aero Pro', 'super')
+
+INSERT INTO Rakieta (id, nazwa, opis, id_model)
+VALUES ('1', 'Babolat', 'rakiety', '1')
+
+SELECT * FROM Model
+SELECT * FROM Rakieta
